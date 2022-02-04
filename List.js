@@ -8,4 +8,11 @@ names.push(false);/* Add in the end */
 names.unshift('Frank');/* Add  */
 names.pop()/* Cut the last */
 
-console.log(names);
+names[4] = 'Fresno';
+
+const indexOfKiara = names.indexOf('Kiara');
+
+const sortedNames = names.sort();
+
+console.log(names.length);
+console.log(sortedNames);
