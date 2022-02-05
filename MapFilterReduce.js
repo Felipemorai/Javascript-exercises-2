@@ -15,3 +15,10 @@ const evenAges = ages.filter(function(age) {
 });
 
 console.log(evenAges);
+
+/* Method Reduce */
+const sumOfAges = ages.reduce(function(age, accumulator) {
+    return accumulator + age;
+}, 0);
+
+console.log(sumOfAges);
