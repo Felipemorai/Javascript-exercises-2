@@ -16,6 +16,8 @@ const all = [
     },
 ];
 
-const descriptionOfLastAll = all[2].description;
+const allJSON = JSON.stringify(all);
+const allList = JSON.parse(allJSON);
 
-console.log(descriptionOfLastAll);
+console.log(allJSON);
+console.log(allList);
