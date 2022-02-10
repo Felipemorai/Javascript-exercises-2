@@ -22,5 +22,16 @@ carsBrand.forEach(function(car, index) {
 let index = 0;
 
 while (index < 10) {
-    console.log('index it´s smaller than 10')
+    console.log('index it´s smaller than 10');
+    index++;
 }
+
+/* For In Loop */
+const person = {
+    name: 'Jane',
+    age: 21,
+};
+
+for (property in person) {
+    console.log(person[property]);
+};
