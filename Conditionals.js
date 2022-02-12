@@ -25,3 +25,14 @@ if (sum1 === 4 || sum2 === 6) {
 } else {
     console.log('sum1 isn´t 4 or sum2 isn´t 6');
 }
+
+/* Ternary Operator */
+let number = sum === ;
+
+if (sum === 2) {
+    number = 2;
+} else {
+    number = 4;
+}
+
+console.log(number);
