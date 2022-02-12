@@ -27,12 +27,27 @@ if (sum1 === 4 || sum2 === 6) {
 }
 
 /* Ternary Operator */
-let number = sum === ;
+let number = sum === 2 ? 2 : 4;
 
-if (sum === 2) {
+/* ternary do the same thing this */
+/* if (sum === 2) {
     number = 2;
 } else {
     number = 4;
-}
+} */
 
 console.log(number);
+
+/* Switch */
+const car = "Tesla";
+
+switch (car) {
+    case 'Mercedes':
+        console.log('Mercedes is beautiful!');
+        break;
+    case 'Ferrari':
+        console.log('Ferrari is such a good choice!');
+        break;
+    case 'Tesla':
+        console.log('Tesla is very techno and smart!');
+}
